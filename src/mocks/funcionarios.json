@@ -1,0 +1,29 @@
+[
+  {
+    "id": "F001",
+    "nome": "Victor Hugo dos Santos",
+    "telefone": "(11) 99999-0001",
+    "endereco": "Av. Paulista, 1000 - São Paulo, SP",
+    "usuario": "admin",
+    "senha": "admin",
+    "nivelPermissao": "administrador"
+  },
+  {
+    "id": "F002",
+    "nome": "Ana Carla Ferreira",
+    "telefone": "(11) 99999-0002",
+    "endereco": "Rua das Flores, 200 - Campinas, SP",
+    "usuario": "engenheiro",
+    "senha": "engenheiro",
+    "nivelPermissao": "engenheiro"
+  },
+  {
+    "id": "F003",
+    "nome": "Rodrigo Mendes",
+    "telefone": "(11) 99999-0003",
+    "endereco": "Rua XV de Novembro, 50 - Curitiba, PR",
+    "usuario": "operador",
+    "senha": "operador",
+    "nivelPermissao": "operador"
+  }
+]

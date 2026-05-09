@@ -1,0 +1,162 @@
+[
+  {
+    "id": "aero-001",
+    "codigo": "AC-0001",
+    "modelo": "Embraer E175",
+    "tipo": "comercial",
+    "capacidade": 80,
+    "alcance": 3700,
+    "dataCadastro": "2024-01-15",
+    "pecas": [
+      {
+        "id": "peca-001",
+        "nome": "Motor GE CF34-8E5",
+        "tipo": "motorista",
+        "fornecedor": "GE Aviation",
+        "status": "aprovada",
+        "dataCadastro": "2024-01-16"
+      },
+      {
+        "id": "peca-002",
+        "nome": "Trem de pouso principal",
+        "tipo": "estrutural",
+        "fornecedor": "Liebherr",
+        "status": "em produção",
+        "dataCadastro": "2024-01-17"
+      },
+      {
+        "id": "peca-003",
+        "nome": "Avionics Suite Collins",
+        "tipo": "aviônica",
+        "fornecedor": "Collins Aerospace",
+        "status": "inspeção",
+        "dataCadastro": "2024-01-18"
+      }
+    ],
+    "etapas": [
+      {
+        "id": "etapa-001",
+        "nome": "Montagem estrutural",
+        "prazo": "2024-03-01",
+        "status": "concluída",
+        "funcionariosIds": ["F001", "F002"],
+        "dataInicio": "2024-01-20",
+        "dataConclusao": "2024-02-28"
+      },
+      {
+        "id": "etapa-002",
+        "nome": "Instalação elétrica",
+        "prazo": "2024-04-15",
+        "status": "em andamento",
+        "funcionariosIds": ["F002"],
+        "dataInicio": "2024-03-01"
+      },
+      {
+        "id": "etapa-003",
+        "nome": "Pintura e acabamento",
+        "prazo": "2024-05-30",
+        "status": "pendente",
+        "funcionariosIds": []
+      }
+    ],
+    "testes": [
+      {
+        "id": "teste-001",
+        "tipo": "estrutural",
+        "resultado": "aprovado",
+        "data": "2024-02-25",
+        "observacoes": "Estrutura dentro dos parâmetros nominais."
+      },
+      {
+        "id": "teste-002",
+        "tipo": "elétrico",
+        "resultado": "pendente",
+        "data": "2024-04-10"
+      }
+    ]
+  },
+  {
+    "id": "aero-002",
+    "codigo": "AC-0002",
+    "modelo": "Boeing 737 MAX",
+    "tipo": "comercial",
+    "capacidade": 189,
+    "alcance": 6570,
+    "dataCadastro": "2024-02-01",
+    "pecas": [
+      {
+        "id": "peca-010",
+        "nome": "Motor CFM LEAP-1B",
+        "tipo": "motorista",
+        "fornecedor": "CFM International",
+        "status": "aprovada",
+        "dataCadastro": "2024-02-02"
+      }
+    ],
+    "etapas": [
+      {
+        "id": "etapa-010",
+        "nome": "Recebimento de componentes",
+        "prazo": "2024-03-15",
+        "status": "concluída",
+        "funcionariosIds": ["F001"],
+        "dataInicio": "2024-02-05",
+        "dataConclusao": "2024-03-10"
+      },
+      {
+        "id": "etapa-011",
+        "nome": "Integração sistêmica",
+        "prazo": "2024-06-01",
+        "status": "pendente",
+        "funcionariosIds": []
+      }
+    ],
+    "testes": []
+  },
+  {
+    "id": "aero-003",
+    "codigo": "AC-0003",
+    "modelo": "Airbus A320neo",
+    "tipo": "comercial",
+    "capacidade": 165,
+    "alcance": 6300,
+    "dataCadastro": "2024-02-20",
+    "pecas": [],
+    "etapas": [],
+    "testes": []
+  },
+  {
+    "id": "aero-004",
+    "codigo": "AC-0004",
+    "modelo": "Lockheed C-130J",
+    "tipo": "militar",
+    "capacidade": 0,
+    "alcance": 6852,
+    "dataCadastro": "2024-03-10",
+    "pecas": [],
+    "etapas": [
+      {
+        "id": "etapa-020",
+        "nome": "Inspeção inicial de componentes",
+        "prazo": "2024-04-01",
+        "status": "concluída",
+        "funcionariosIds": ["F003"],
+        "dataInicio": "2024-03-11",
+        "dataConclusao": "2024-03-30"
+      }
+    ],
+    "testes": []
+  },
+  {
+    "id": "aero-005",
+    "codigo": "AC-0005",
+    "modelo": "Gulfstream G700",
+    "tipo": "executiva",
+    "capacidade": 19,
+    "alcance": 13890,
+    "dataCadastro": "2024-03-25",
+    "pecas": [],
+    "etapas": [],
+    "testes": []
+  }
+]

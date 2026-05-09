@@ -1,0 +1,8 @@
+[
+  { "mes": "jan", "concluidas": 8,  "emAndamento": 12, "pendentes": 5 },
+  { "mes": "fev", "concluidas": 11, "emAndamento": 9,  "pendentes": 7 },
+  { "mes": "mar", "concluidas": 14, "emAndamento": 11, "pendentes": 4 },
+  { "mes": "abr", "concluidas": 10, "emAndamento": 15, "pendentes": 6 },
+  { "mes": "mai", "concluidas": 16, "emAndamento": 8,  "pendentes": 3 },
+  { "mes": "jun", "concluidas": 13, "emAndamento": 10, "pendentes": 8 }
+]
