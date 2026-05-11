@@ -26,7 +26,7 @@ estrutura de pastas do projeto
 
   /
   README.md                     (este arquivo)
-  orientacao-montagem.md        (documento de referencia de montagem)
+  orientacao-montagem.md        (deletado pois não havia necessidade de existir)
   index.html
   vite.config.ts
   tailwind.config.js
@@ -58,7 +58,7 @@ estrutura de pastas do projeto
 
     /pages
       Login.tsx                 (tela de acesso ao sistema)
-      EasterEgg.tsx             (tela oculta com ascii procedural)
+      EasterEgg.tsx
       Dashboard.tsx             (metricas e grafico de producao mensal)
       Aeronaves.tsx             (listagem, cadastro e detalhes de aeronaves)
       Pecas.tsx                 (gerenciamento de pecas por aeronave)
@@ -92,7 +92,6 @@ instalacao
 
 4. acesse no navegador: http://localhost:5173
 
-
 credenciais de acesso (mock)
 -----------------------------
 
@@ -105,31 +104,9 @@ niveis de permissao:
 - engenheiro: aeronaves, pecas, etapas, testes e relatorios
 - operador: apenas aeronaves, pecas e etapas
 
-
-easter egg
-----------
-
-na tela de login, utilize as credenciais abaixo para acessar uma tela oculta:
-
-  usuario: paysandu
-  senha: paysandu
-
-a tela exibe um ascii art renderizado de forma procedural, caracter por caracter.
-quando o texto terminar de aparecer, a animacao para automaticamente.
-
-o easter egg esta implementado nos seguintes arquivos:
-- src/services/autenticacaoService.ts  (verificacao das credenciais especiais)
-- src/pages/EasterEgg.tsx              (tela com animacao procedural)
-- src/App.tsx                          (roteamento para a tela oculta)
-
-nota: o login paysandu/paysandu nao aparece no mock de funcionarios.json.
-      a verificacao e feita antes da consulta ao mock, via funcao verificarEasterEgg().
-
-
 persistencia de dados
 ---------------------
 
-nao ha backend. os dados sao persistidos via localStorage do navegador.
 na primeira execucao, os dados iniciais sao carregados dos arquivos .json em /src/mocks.
 nas execucoes seguintes, o localStorage ja possui os dados e os mocks nao sao lidos novamente.
 
